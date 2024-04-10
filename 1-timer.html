@@ -6,13 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer</title>
     
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/styles-f178b924.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-65ba80e7.css">
+    <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/styles-2d897a86.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-12a12ec2.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
   </head>
   <body>
     <section>
       <a href="./index.html">Go to home</a>
       <h1>Welcome to Timer</h1>
+    </section>
+    <section>
+      <div class="wrapper">
+        <input class="date" type="text" id="datetime-picker" />
+        <button class="start-btn" type="button" data-start disabled>
+          Start
+        </button>
+      </div>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
     </section>
     
   </body>
