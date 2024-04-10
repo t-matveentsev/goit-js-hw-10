@@ -1,0 +1,37 @@
+.wrapper {
+  display: block;
+  text-align: center;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.date {
+  border-style: none;
+  border: solid 1px black;
+  font-size: 16px;
+  min-width: 200px;
+  min-height: 30px;
+}
+.start-btn {
+  font-size: 16px;
+  height: 34px;
+}
+
+.value {
+  font-size: 36px;
+}
+
+.label {
+  font-size: 16px;
+}
