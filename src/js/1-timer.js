@@ -3,7 +3,7 @@ import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
-const datetimePicker = document.getElementById('datetime-picker');
+const dateTimePicker = document.getElementById('datetime-picker');
 const startBtn = document.querySelector('[data-start]');
 const daysValue = document.querySelector('[data-days]');
 const hoursValue = document.querySelector('[data-hours]');
@@ -37,7 +37,7 @@ flatpickr('#datetime-picker', options);
 
 function startCountdown() {
   startBtn.disabled = true;
-  datetimePicker.disabled = true;
+  dateTimePicker.disabled = true;
 
   const endDate = userSelectDate.getTime();
 
